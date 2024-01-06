@@ -11,3 +11,8 @@ export interface GetAccount {
     currency: string;
     userId: string
 }
+export interface RegisterUser {
+    nickname: string;
+    email: string;
+    name: string;
+}
