@@ -9,4 +9,5 @@ export interface GetAccount {
     name: string;
     balance: number;
     currency: string;
+    userId: string
 }
