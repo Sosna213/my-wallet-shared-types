@@ -10,4 +10,5 @@ export enum TransactionsCategories {
     EDUCATION = 'Education',
     TAXES = 'Taxes',
     MISCELLANEOUS = 'Miscellaneous',
+    OTHERS = 'Others',
 }
