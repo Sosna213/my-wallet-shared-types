@@ -1,4 +1,4 @@
-import {TransactionsCategories} from "../../my-wallet-api/my-wallet-shared-types/shared-cosnts";
+import {TransactionsCategories} from "./shared-consts";
 
 export interface CreateAccount {
     name: string;
