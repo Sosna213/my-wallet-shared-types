@@ -33,7 +33,7 @@ export interface GetTransactionDTO {
     category: string;
     date: Date
     accountId: string
-    userId: string
+    accountName: string
 }
 
 export interface TransactionsFilters {
