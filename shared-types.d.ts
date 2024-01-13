@@ -38,8 +38,10 @@ export interface GetTransactionDTO {
 
 export interface TransactionsFilters {
     accountId?: string,
-    category?: TransactionsCategories,
+    category?: string,
     eq?: number,
     gte?: number,
     lte?: number,
+    fromDate?: string,
+    toDate?: string,
 }
