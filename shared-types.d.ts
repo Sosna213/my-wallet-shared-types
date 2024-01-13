@@ -30,7 +30,7 @@ export interface CreateTransactionDTO {
 export interface GetTransactionDTO {
     name: string;
     amount: number;
-    category: TransactionsCategories;
+    category: string;
     date: Date
     accountId: string
     userId: string
