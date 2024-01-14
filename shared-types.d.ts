@@ -34,14 +34,15 @@ export interface GetTransactionDTO {
     date: Date
     account: {
         id: string,
-        name: string
+        name: string,
+        currency: string
     }
 }
 
 export interface TransactionsFilters {
     transactionName?: string,
-    accountId?: string,
-    category?: string,
+    accountId?: string[],
+    category?: string[],
     eq?: number,
     gte?: number,
     lte?: number,
