@@ -43,10 +43,10 @@ export interface TransactionsFilters {
     transactionName?: string,
     accountId?: string[],
     category?: string[],
+    currency?: string[],
     eq?: number,
     gte?: number,
     lte?: number,
     fromDate?: string,
     toDate?: string,
-    currency?: string,
 }
