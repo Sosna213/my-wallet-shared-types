@@ -48,4 +48,5 @@ export interface TransactionsFilters {
     lte?: number,
     fromDate?: string,
     toDate?: string,
+    currency?: string,
 }
